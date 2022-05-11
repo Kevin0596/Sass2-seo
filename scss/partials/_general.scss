@@ -1,0 +1,17 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    resize: none;
+}
+
+body {
+    background-image: url(/multimedia/imag/stock-photo-top-view-arranged-towels-orchid.jpg);
+    font-family: $tipo-de-letra;
+    width: 100%;
+}

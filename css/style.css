@@ -1,0 +1,521 @@
+.header, header {
+  background-color: #ed5b86;
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.948);
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: azure; }
+
+.header, header {
+  background-color: #ed5b86;
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.948);
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: azure; }
+
+nav {
+  display: inline-block; }
+  nav nav ul li a {
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #010304;
+    width: max-content;
+    list-style: none;
+    display: flex; }
+  nav li a.active,
+  nav li a:hover {
+    list-style: none;
+    background-color: #ed5b86;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+
+.header, header {
+  background-color: #ed5b86;
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.948);
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: azure; }
+
+.contes {
+  text-align: center;
+  color: #fdfdfdab;
+  background-color: #6161612d; }
+
+fieldset {
+  border: 5px solid black;
+  background-color: #F7E2E2;
+  text-align: center;
+  margin: 15px;
+  padding: 10px; }
+
+.area {
+  width: 700px;
+  height: 300px;
+  resize: none; }
+
+legend {
+  font-size: 35px;
+  color: #000101; }
+
+.formu {
+  padding: 10px; }
+
+input {
+  font-size: 22px;
+  margin-bottom: 15px; }
+
+.relleno {
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.456);
+  padding: 10px;
+  margin: 0px; }
+
+select {
+  font-size: 20px;
+  border-radius: 29px;
+  border-color: black; }
+
+.aceptar {
+  font-size: 15px; }
+
+.detalles {
+  color: black;
+  font-size: 15px; }
+
+@media screen and (max-width: 328px) {
+  .contes {
+    font-size: 19px;
+    background-color: #ffffff; }
+  .area {
+    width: 70%; }
+  fieldset {
+    border: 5px solid black;
+    background-color: #F7E2E2;
+    text-align: center; }
+  .aceptar {
+    font-size: 5px; }
+  .dudas {
+    font-size: 10px; }
+  legend {
+    font-size: 10px;
+    color: #000101; }
+  input {
+    font-size: 8px;
+    margin-bottom: 1px; }
+  .relleno {
+    font-size: 8px;
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.456);
+    padding: 10px;
+    margin: 0px; }
+  select {
+    font-size: 8px;
+    border-radius: 5px;
+    border-color: black; }
+  .aceptar {
+    font-size: 15px; }
+  .detalles {
+    color: black;
+    font-size: 10px; }
+  .footerss {
+    width: 100%; } }
+
+.header, header {
+  background-color: #ed5b86;
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.948);
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: azure; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.948);
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; }
+  footer a {
+    text-decoration: none;
+    margin: 40px;
+    color: azure;
+    list-style: none;
+    list-style: none; }
+
+.copi {
+  color: aliceblue; }
+
+.header, header {
+  background-color: #ed5b86;
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.948);
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: azure; }
+
+.carrusel {
+  font-size: 45px;
+  text-align: center;
+  background-color: #0885fa6f; }
+
+.sss {
+  width: 100%;
+  height: 100%; }
+
+@media screen and (max-width: 328px) {
+  .body {
+    width: 100%;
+    height: 100%; }
+  .carrusel {
+    font-size: 22px; }
+  .sss {
+    width: 100%;
+    height: 100%; }
+  .imgRedes {
+    font-size: 19px; }
+  .copi {
+    text-align: center;
+    font-size: 25px; }
+  .footers-galeria {
+    width: 100%;
+    height: 500px; }
+  .footerss {
+    background-color: #000000;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    flex-flow: nowrap;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 55px; } }
+
+.header, header {
+  background-color: #ed5b86;
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.948);
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: azure; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  resize: none; }
+
+body {
+  background-image: url(/multimedia/imag/stock-photo-top-view-arranged-towels-orchid.jpg);
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  width: 100%; }
+
+.header, header {
+  background-color: #ed5b86;
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.948);
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: azure; }
+
+.be {
+  font-size: 35px; }
+
+.camilla {
+  width: 40%;
+  margin: 12px; }
+
+.contenido {
+  text-align: center; }
+
+.as {
+  border: #000000 3px solid;
+  margin: 10px;
+  background-image: url(../multimedia/imag/sss.jfif);
+  font-size: 25px;
+  animation: as;
+  animation-duration: 8s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite; }
+
+.bs {
+  border: #000000 3px solid;
+  margin: 10px;
+  background-image: url(../multimedia/imag/sss.jfif);
+  font-size: 25px;
+  animation: as;
+  animation-duration: 8s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite; }
+
+.cs {
+  border: #000000 3px solid;
+  margin: 10px;
+  background-image: url(../multimedia/imag/sss.jfif);
+  font-size: 25px;
+  animation: as;
+  animation-duration: 8s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite; }
+
+.ds {
+  border: #000000 3px solid;
+  margin: 10px;
+  background-image: url(../multimedia/imag/sss.jfif);
+  font-size: 25px;
+  animation: as;
+  animation-duration: 8s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite; }
+
+h2 {
+  background-color: #ed5b8794; }
+
+h1 {
+  background-color: #e330d472; }
+
+@media screen and (max-width: 328px) {
+  .be {
+    font-size: 20px;
+    text-align: center; }
+  .camilla {
+    width: 80%; } }
+
+.header, header {
+  background-color: #ed5b86;
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.948);
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: azure; }
+
+.servicio {
+  background-image: url(../multimedia/imag/stock-photo-top-view-arranged-towels-orchid.jpg); }
+
+.tabla {
+  border: #000000 5px solid;
+  text-align: center;
+  width: 98%;
+  height: 700px;
+  margin: 25px;
+  justify-content: center;
+  animation: tabla;
+  animation-duration: 5s;
+  animation-delay: 6s;
+  animation-iteration-count: infinite; }
+
+.tip {
+  text-align: center;
+  background-color: #da00e65b;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  animation: tip;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite; }
+
+.servi {
+  font-size: 30px;
+  list-style: none;
+  border: #000000 solid 4px;
+  margin: 30px;
+  background-image: linear-gradient(#0885fa, rgba(205, 41, 255, 0.932), rgba(23, 45, 248, 0.534)); }
+
+.item {
+  font-size: 30px;
+  border: #000000 solid 6px;
+  background-image: linear-gradient(#0d87eb, rgba(13, 221, 236, 0.932), rgba(3, 0, 163, 0.932)); }
+
+.horarios {
+  color: #000000;
+  font-size: 30px;
+  background-color: #bebebed7;
+  text-align: center; }
+
+.ser {
+  color: whitesmoke; }
+
+.copias {
+  color: azure; }
+
+.footer-servi {
+  background-color: rgba(0, 0, 0, 0.948);
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+/* ------------------------------------ANIMACION----------------*/
+@keyframes tabla {
+  10% {
+    background-color: #ed5b86; } }
+
+@keyframes tip {
+  0% {
+    font-size: 45px; } }
+
+@keyframes as {
+  10% {
+    background-image: url(../multimedia/imag/sa.jpg); } }
+
+@keyframes bs {
+  10% {
+    background-image: url(../multimedia/imag/sa.jpg); } }
+
+@keyframes cs {
+  10% {
+    background-image: url(../multimedia/imag/sa.jpg); } }
+
+@keyframes ds {
+  10% {
+    background-image: url(../multimedia/imag/sa.jpg); } }
+
+@media screen and (max-width: 328px) {
+  .servicio {
+    background-image: url(/multimedia/imag/ff.jpg);
+    width: 100%; }
+  nav ul li a {
+    font-size: 12px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #010304;
+    width: max-content; }
+  .tabla {
+    border: #000000 5px solid;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    margin: 25px;
+    justify-content: center;
+    flex-direction: column; }
+  .tip {
+    text-align: center;
+    font-size: 15px; }
+  .servi {
+    font-size: 10px;
+    list-style: none;
+    border: #000000 solid 4px;
+    margin: 30px;
+    background-color: azure; }
+  .item {
+    font-size: 10px;
+    border: #000000 solid 6px;
+    background-color: #ed5b86; }
+  .horarios {
+    color: #000000;
+    font-size: 15px;
+    background-color: #ed5b876a;
+    text-align: center; }
+  .ser {
+    color: whitesmoke; }
+  .copias {
+    color: azure; } }
+
+.header, header {
+  background-color: #ed5b86;
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.948);
+  width: 100%;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: azure; }
+
+.ubicacions {
+  background: url(../multimedia/imag/stock-photo-top-view-arranged-towels-orchid.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+
+.tittle-tres {
+  text-align: center;
+  color: azure;
+  font-size: 50px;
+  line-height: 50px;
+  margin-top: 0px;
+  background-color: #ed5b86; }
+
+iframe {
+  width: 800px;
+  height: 700px;
+  margin: 20px auto;
+  background: url(../multimedia/imag/ff.jpg);
+  text-align: center; }
+
+.dire {
+  font-size: 25px;
+  color: azure;
+  text-align: center;
+  background-color: #ed5b8784; }
+
+@media screen and (max-width: 328px) {
+  .ubicacions {
+    background: url(../multimedia/imag/imagem.jpg); }
+  .tittle-tres {
+    text-align: center;
+    color: azure;
+    font-size: 15px;
+    line-height: 50px;
+    background-color: #9700ceab; }
+  .dire {
+    font-size: 15px;
+    color: azure;
+    text-align: center;
+    background-color: #ed5b8784; }
+  iframe {
+    width: 70%;
+    background: url(../multimedia/imag/imagem.jpg); } }
+
+* {
+  margin: 0;
+  padding: 0; }

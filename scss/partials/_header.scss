@@ -1,0 +1,23 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+header {
+
+    @extend .header;
+}
+
+nav {
+    display: inline-block;
+
+    nav ul li a {
+        @include flexibilizar-centrar;
+    }
+
+    li a.active,
+    li a:hover {
+        list-style: none;
+        background-color: #ed5b86;
+        transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+}

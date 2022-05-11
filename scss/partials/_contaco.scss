@@ -1,0 +1,141 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+.contes {
+  text-align: center;
+  color: #fdfdfdab;
+  background-color: #6161612d;
+}
+
+fieldset {
+  border: 5px solid black;
+  background-color: #F7E2E2;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+}
+
+.area {
+  width: 700px;
+  height: 300px;
+  resize: none;
+}
+
+legend {
+  font-size: 35px;
+  color: #000101;
+}
+
+.formu {
+  padding: 10px;
+}
+
+input {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.relleno {
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.456);
+  padding: 10px;
+  margin: 0px;
+}
+
+select {
+  font-size: 20px;
+  border-radius: 29px;
+  border-color: black;
+}
+
+.aceptar {
+  font-size: 15px;
+}
+
+.detalles {
+  color: black;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 328px) {
+
+
+
+
+
+
+  .contes {
+    font-size: 19px;
+    background-color: #ffffff;
+  }
+
+  .area {
+    width: 70%;
+
+
+  }
+
+  fieldset {
+    border: 5px solid black;
+    background-color: #F7E2E2;
+    text-align: center;
+
+
+  }
+
+  .aceptar {
+    font-size: 5px;
+  }
+
+  .dudas {
+    font-size: 10px;
+  }
+
+  legend {
+    font-size: 10px;
+    color: rgb(0, 1, 1);
+  }
+
+
+
+  input {
+    font-size: 8px;
+    margin-bottom: 1px;
+
+  }
+
+  .relleno {
+    font-size: 8px;
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.456);
+    padding: 10px;
+    margin: 0px;
+  }
+
+  select {
+    font-size: 8px;
+    border-radius: 5px;
+    border-color: black;
+  }
+
+  .aceptar {
+    font-size: 15px;
+  }
+
+  .detalles {
+    color: black;
+    font-size: 10px;
+  }
+
+  .footerss {
+    width: 100%;
+  }
+}

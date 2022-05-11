@@ -1,0 +1,76 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+.ubicacions {
+
+    background: url(../multimedia/imag/stock-photo-top-view-arranged-towels-orchid.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: $alinear-al-centro;
+    align-content: $alinear-al-centro;
+
+}
+
+.tittle-tres {
+    text-align: $alinear-al-centro;
+    color: $texto;
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 0px;
+    background-color: $pink;
+}
+
+iframe {
+    width: 800px;
+    height: 700px;
+    margin: 20px auto;
+    background: url(../multimedia/imag/ff.jpg);
+    text-align: center;
+
+}
+
+.dire {
+    font-size: 25px;
+    color: azure;
+    text-align: center;
+    background-color: #ed5b8784;
+}
+
+@media screen and (max-width: 328px) {
+
+.ubicacions {
+    background: url(../multimedia/imag/imagem.jpg);
+
+}
+
+.tittle-tres {
+    text-align: $alinear-al-centro;
+    color: $texto;
+    font-size: 15px;
+    line-height: 50px;
+    background-color: #9700ceab;
+}
+
+
+
+.dire {
+    font-size: 15px;
+    color: $texto;
+    text-align: $alinear-al-centro;
+    background-color: #ed5b8784;
+}
+
+
+
+iframe {
+    width: 70%;
+    background: url(../multimedia/imag/imagem.jpg);
+
+
+
+
+}
+
+}

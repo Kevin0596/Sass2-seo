@@ -1,0 +1,57 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
+
+
+.be {
+    font-size: 35px;
+}
+
+.camilla {
+    width: 40%;
+    margin: 12px;
+}
+
+.contenido {
+    text-align: center;
+}
+
+.as {
+    @include planilla (as);
+}
+
+.bs {
+    @include planilla (bs);
+}
+
+.cs {
+    @include planilla (cs);
+}
+
+
+.ds {
+    @include planilla (ds);
+}
+
+
+h2 {
+    background-color: #ed5b8794;
+}
+
+h1 {
+    background-color: #e330d472;
+}
+
+
+@media screen and (max-width: 328px) {
+
+    .be {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .camilla {
+        width: 80%;
+    }
+}

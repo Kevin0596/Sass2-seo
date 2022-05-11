@@ -1,0 +1,19 @@
+@import "../variables/variables";
+
+.header{
+    background-color:$pink;
+    width: $ancho;
+    font-family: $tipo-de-letra;
+    font-size: $size;
+}
+
+
+
+footer{
+    background-color: $fondo-de-color;
+    width: $ancho;
+    font-family: $tipo-de-letra;
+    font-size: $size;
+    color: $texto ;
+}
+
