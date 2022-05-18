@@ -13,5 +13,13 @@
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin0596/Sass2-seo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kevin0596/Sass2-seo/issues"
+  },
+  "homepage": "https://github.com/Kevin0596/Sass2-seo#readme",
   "description": ""
 }
